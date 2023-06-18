@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "final-project"
+version = "0.1.0"
+description = ""
+authors = ["Cory Mills <focusleft@gmail.com>"]
+readme = "README.md"
+packages = [{include = "final_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.2"
+altair = "^5.0.1"
+scikit-learn = "^1.2.2"
+matplotlib = "^3.7.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.23.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
