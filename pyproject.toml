@@ -15,6 +15,7 @@ matplotlib = "^3.7.1"
 seaborn = "^0.12.2"
 xgboost = "^1.7.6"
 gower = "^0.1.2"
+imblearn = "^0.0"
 
 
 [tool.poetry.group.dev.dependencies]
